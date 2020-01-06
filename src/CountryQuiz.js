@@ -3,8 +3,7 @@ import './App.css';
 import './bootstrap.min.css';
 import london from './images/london.jpg';
 
-
-//now define your components
+//now defining the components
 function Hero() {
     return(<div className="row">
         <div className="jumbotron col-10 offset-1">
@@ -39,22 +38,13 @@ function Options({cities}) {
     );
 }
 
-function Footer() {
-    return (
-        <div id="footer" className="row">
-            <div className="col-12">
-                <p>This is a footer</p>
-            </div>
-        </div>
-    );
-}
+
 function CountryQuiz ({cityData}) {
         return (
             <div className="container-fluid">
                 <Hero/> 
                 <Country />
                 <Options {...cityData}/>
-                <Footer />
                 {/* <h1>text outside hero</h1> */}
             </div>
         );

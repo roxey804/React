@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 // import Myclass from './App';
-import AuthorQuiz from './AuthorQuiz'; 
+import CountryQuiz from './CountryQuiz'; 
 import * as serviceWorker from './serviceWorker';
 
 const citynames = [
@@ -19,7 +19,7 @@ const state = {
 
 ReactDOM.render( 
 //<Myclass />,
-<AuthorQuiz {...state} />,
+<CountryQuiz {...state} />,
 
 document.getElementById('root'));
 
