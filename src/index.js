@@ -17,6 +17,7 @@ const state = {
 }
 };
 
+
 ReactDOM.render( 
 //<Myclass />,
 <CountryQuiz {...state} />,

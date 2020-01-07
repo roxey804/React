@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
 import './bootstrap.min.css';
+import Greet from './BtnClick';
 
 class Myclass extends React.Component {
   render() {
     return (
-<h1 style={{ color:'blue'}}>Hello this is JSX</h1>
+      <Greet name="bob" />
     );
   }
 }

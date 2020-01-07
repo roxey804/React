@@ -1,7 +1,9 @@
 import React from 'react';
 import './App.css';
 import './bootstrap.min.css';
+import BtnClick from './BtnClick';
 import london from './images/london.jpg';
+import ChangeText from './ChangeText';
 
 //now defining the components
 function Hero() {
@@ -44,6 +46,8 @@ function CountryQuiz ({cityData}) {
             <div className="container-fluid">
                 <Hero/> 
                 <Country />
+                <BtnClick />
+                <ChangeText />
                 <Options {...cityData}/>
                 {/* <h1>text outside hero</h1> */}
             </div>
