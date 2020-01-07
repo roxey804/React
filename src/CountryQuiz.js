@@ -4,6 +4,7 @@ import './bootstrap.min.css';
 import BtnClick from './BtnClick';
 import london from './images/london.jpg';
 import ChangeText from './ChangeText';
+import ShowDiv from './ShowDiv';
 
 //now defining the components
 function Hero() {
@@ -48,6 +49,7 @@ function CountryQuiz ({cityData}) {
                 <Country />
                 <BtnClick />
                 <ChangeText />
+                <ShowDiv />
                 <Options {...cityData}/>
                 {/* <h1>text outside hero</h1> */}
             </div>
