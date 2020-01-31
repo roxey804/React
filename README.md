@@ -1,16 +1,16 @@
-### A simple app in React
+# A simple app in React
+ 
+## /src - here is the majority of the JSX code for the various components, named by their main function. 
 
-##src - here is the majority of the JSX code for the various components, named by their main function. 
++ BtnClick :
++ ChangeText: 
++ EvenClick :
++ Header:
++ MyForm :
++ ShowDiv: 
++ 
 
-+BtnClick :
-+ChangeText: 
-+EvenClick :
-+Header:
-+MyForm :
-+ShowDiv: 
-+ :
-
-#templates - this folder contains code templates for class and function-based components
+## /templates - this folder contains code templates for class and function-based components
 
 #Generic Create React App info: 
 
