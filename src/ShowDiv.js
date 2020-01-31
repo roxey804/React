@@ -10,8 +10,8 @@ function ShowDiv() {
   e.classList.remove("hidden")
 } 
     return (
-        <div>
-            <button onClick={showDiv}>Click me to show hidden text</button>
+        <div className="col-md">
+            <button className="btn btn-primary" onClick={showDiv}>Click me to show hidden text</button>
             <div id="mydiv" className="hidden">Hidden text now displayed!</div>
         </div>
     )

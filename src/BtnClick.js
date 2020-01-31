@@ -14,9 +14,11 @@ function BtnClick() {
 
     // }   
      return (
-        <div>
-            <button onClick={generateAlert}>Click me to generate a popup</button>
+        
+            <div className="col-md">
+            <button className="btn btn-danger" onClick={generateAlert}>Click me to generate a popup</button>
         </div>
+       
     )
 }
 

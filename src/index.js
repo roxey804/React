@@ -2,25 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 // import Myclass from './App';
-import CountryQuiz from './CountryQuiz'; 
+import App from './App'; 
 import * as serviceWorker from './serviceWorker';
 
-const citynames = [
-    {
-        name: ['london','paris']
-    }
-];
-
-const state = {
-    cityData: {
-    cities: citynames[0],
-}
-};
 
 
 ReactDOM.render( 
 //<Myclass />,
-<CountryQuiz {...state} />,
+<App />,
 
 document.getElementById('root'));
 
