@@ -1,6 +1,13 @@
- import React from 'react';
+//import dependencies
+import React from 'react';
+
+//import react-testing methods
 import { render, fireEvent } from 'react-testing-library';
 
+//import jest matchers from jest-dom
+
+
+//import your React component
 import MyComponent from "./MyComponent";
 
 
