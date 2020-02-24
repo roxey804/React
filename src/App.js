@@ -6,10 +6,12 @@ import BtnClick from './BtnClick';
 import ChangeText from './ChangeText';
 import ShowDiv from './ShowDiv';
 import MyForm from './MyForm';
+import MockComponent from './MockComponent';
 import PreventDefaultReload from './PreventDefaultReload';
 import DropdownOnSelect from './DropdownOnSelect';
 import EvenCounter from './EvenClick';
 import ColourChange from './ColourChange';
+import TestHeader from './TestHeader';
 
 
 function App() {
@@ -26,7 +28,8 @@ function App() {
     <PreventDefaultReload />
     <EvenCounter onEvenClick={(data)=> {console.log(`even ${data}`);}}/>
     <DropdownOnSelect />
-    
+    <MockComponent />    
+    <TestHeader />
     </div>
   );
 }
